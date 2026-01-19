@@ -24,7 +24,7 @@
   color: #1a3845;
   mask-repeat: no-repeat;
   mask-size: 100%;
-  background: rgba(232, 242, 252, .8);
+  background: rgba(232, 242, 252, .9);
   -webkit-mask-image: linear-gradient(to top, transparent, black 20px), linear-gradient(transparent, black 20px), linear-gradient(to left, transparent, black 20px), linear-gradient(to right, transparent, black 20px), linear-gradient(to left top, transparent, black 30px), linear-gradient(to right top, transparent, black 30px), linear-gradient(to right bottom, transparent, black 30px), linear-gradient(to left bottom, transparent, black 30px);
   mask-image: linear-gradient(to top, transparent, black 20px), linear-gradient(transparent, black 20px), linear-gradient(to left, transparent, black 20px), linear-gradient(to right, transparent, black 20px), linear-gradient(to left top, transparent, black 30px), linear-gradient(to right top, transparent, black 30px), linear-gradient(to right bottom, transparent, black 30px), linear-gradient(to left bottom, transparent, black 30px);
  mask-composite: intersect;
