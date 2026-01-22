@@ -21,14 +21,10 @@
   margin: 0 auto;
   font-size: 1.5em;
   font-weight: 450;
-  color: #1a3845;
-  mask-repeat: no-repeat;
-  mask-size: 100%;
-  background: rgba(232, 242, 252, .9);
-  -webkit-mask-image: linear-gradient(to top, transparent, black 20px), linear-gradient(transparent, black 20px), linear-gradient(to left, transparent, black 20px), linear-gradient(to right, transparent, black 20px), linear-gradient(to left top, transparent, black 30px), linear-gradient(to right top, transparent, black 30px), linear-gradient(to right bottom, transparent, black 30px), linear-gradient(to left bottom, transparent, black 30px);
-  mask-image: linear-gradient(to top, transparent, black 20px), linear-gradient(transparent, black 20px), linear-gradient(to left, transparent, black 20px), linear-gradient(to right, transparent, black 20px), linear-gradient(to left top, transparent, black 30px), linear-gradient(to right top, transparent, black 30px), linear-gradient(to right bottom, transparent, black 30px), linear-gradient(to left bottom, transparent, black 30px);
- mask-composite: intersect;
- -webkit-mask-composite: intersect;
+  border-image-source: url('https://lh3.googleusercontent.com/d/14lSaFYeBQHCscT9GV7ZXfCuGOj-bR91o');
+  border-image-slice: 60 fill;
+  border-image-width: 60px;
+  border-image-repeat: stretch round;
 }
   .title-st {
   width: 1150px;
@@ -39,6 +35,7 @@
   line-height: 1.1;
   color: #d0dee8;
   text-shadow: 0 0 20px black;
+  margin: 0 auto;
 }
   .flavor-st {
   font-optical-sizing: auto;
