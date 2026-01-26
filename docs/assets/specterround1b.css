@@ -85,7 +85,7 @@
   padding: 5px 20px;
 }
   .table-v, .table-v td {
-  border: 1.5px solid #f2ebf5;
+  border: 1.5px solid #black;
 }
   .table-v {
   table-layout:fixed;
