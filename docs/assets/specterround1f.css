@@ -34,7 +34,7 @@
   font-size: 6em;
   font-variant: small-caps;
   line-height: 1.1;
-  color: #d0dee8;
+  color: #ede7e4;
   text-shadow: 0 0 5px white;
   margin: 0 auto;
 }
@@ -60,13 +60,13 @@
   outline: none;
 }
   input.answer-input:focus {
-  border: 2px solid #36a3d2;
+  border: 2px solid #862651;
 }
   .answer-submit {
   background-color: #451a37;
   border: 3px solid #451a37;
   border-radius: 4px;
-  color: #d0dee8;
+  color: #ede7e4;
   cursor: pointer;
   padding: 0px 5px;
   vertical-align: middle;
@@ -103,7 +103,7 @@
 }
   .navibar {
   overflow: hidden;
-  background-color: #d0dee8;
+  background-color: #ede7e4;
   position: fixed;
   top: 0;
   width: 100%;
@@ -143,7 +143,7 @@
   border: 4px solid #862651;
   border-radius: 30px;
   background-color: #451a37;
-  color: rgba(208, 222, 232, 0.5);
+  color: rgba(237, 231, 228, 0.5);
   font-family: "Manjari", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.6em;
@@ -163,7 +163,7 @@
   button#clipboard-button:hover {
   background-color: #862651;
   border-color: #d43e70;
-  color: rgba(208, 222, 232, 1);
+  color: rgba(237, 231, 228, 1);
 }
   
   .main {
