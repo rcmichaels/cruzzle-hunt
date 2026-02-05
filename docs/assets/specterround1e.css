@@ -5,9 +5,10 @@
   display: none;
 }
   body {
-  background-image: url('https://lh3.googleusercontent.com/d/1Y6Q-iQh6iTTCYal3yBL3qjVlgB3KgWcf');
+  background-image: url('https://lh3.googleusercontent.com/d/1Y6Q-iQh6iTTCYal3yBL3qjVlgB3KgWcf'), url('https://lh3.googleusercontent.com/d/1sV4JR-qJ2BMnJeglnYOzeU2NhgkHMrtG');
+  background-repeat: no-repeat, repeat-y;
+  background-position: left top, left 1558px;
   background-size: 100%;
-  background-repeat: no-repeat;
   background-color: #0e1c2a;
   font-family: "Rosario", sans-serif;
   font-optical-sizing: auto;
@@ -44,12 +45,12 @@
   margin-bottom: 1.5em;
 }
   input.answer-input {
-  color: #1a3845;
+  color: #451a37;
   font-family: 'Manjari', sans-serif;
   font-size: 1em;
   text-transform:uppercase;
   font-weight:600;
-  border: 2px solid #1a3845;
+  border: 2px solid #451a37;
   border-radius: 4px;
   vertical-align: middle;
   -webkit-appearance: none;
@@ -62,8 +63,8 @@
   border: 2px solid #36a3d2;
 }
   .answer-submit {
-  background-color: #1a3845;
-  border: 3px solid #1a3845;
+  background-color: #451a37;
+  border: 3px solid #451a37;
   border-radius: 4px;
   color: #d0dee8;
   cursor: pointer;
@@ -72,8 +73,8 @@
   transition: 0.2s;
 }
   .answer-submit:hover {
-  background-color: #266986;
-  border: 3px solid #266986;
+  background-color: #862651;
+  border: 3px solid #862651;
 }
   .table-i {
   border-spacing: 0;
@@ -112,7 +113,7 @@
   .navibar a {
   float: left;
   display: block;
-  color: #1a3845;
+  color: #451a37;
   font-family: "Manjari", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.6em;
@@ -129,7 +130,7 @@
   transform: scale(1,.75);
 }
   .navibar a:hover {
-  color: #266986;
+  color: #862651;
 }
   
   .clipboard-only {
@@ -139,9 +140,9 @@
   display: none;
 }
   button#clipboard-button {
-  border: 4px solid #266986;
+  border: 4px solid #862651;
   border-radius: 30px;
-  background-color: #1a3845;
+  background-color: #451a37;
   color: rgba(208, 222, 232, 0.5);
   font-family: "Manjari", sans-serif;
   font-optical-sizing: auto;
@@ -160,8 +161,8 @@
   word-break: break-all;
 }
   button#clipboard-button:hover {
-  background-color: #266986;
-  border-color: #36a3d2;
+  background-color: #862651;
+  border-color: #d43e70;
   color: rgba(208, 222, 232, 1);
 }
   
